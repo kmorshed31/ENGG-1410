@@ -5,13 +5,13 @@ So printStarts (5) will result in ***** being printed on the screen, while print
 will print 10 stars ***********   */
 #include <stdio.h>
 
-char star(int k){
+char printStars(int k){
     for(int i=0; i<k; i++){
         printf("*");
         }}
 int main(){
   int n;
   scanf("%d", &n);
-  star(n);
+  printStars(n);
   return 0;
 }
