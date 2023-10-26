@@ -14,6 +14,6 @@ int main() {
     int n ;
     scanf("%d", &n);
     unsigned long result = factorial(n);
-    printf("Factorial of %d is %llu\n", n, result);
+    printf("Factorial of %d is %lu\n", n, result);
     return 0;
 }
