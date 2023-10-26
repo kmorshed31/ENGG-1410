@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 unsigned long  factorial(int n) {
-    unsigned long long result = 1;
+    unsigned long result = 1;
     if (n < 0) {
         result=0;}
         else{for (int i = 1; i <= n; i++) {
