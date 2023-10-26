@@ -15,4 +15,4 @@ int main() {
     scanf("%d", &n);
     unsigned long result = factorial(n);
     printf("Factorial of %d is %lu\n", n, result);
-    return 0;
+    return 0;}
